@@ -1,7 +1,7 @@
 {
   "tool_name": "Bash",
-  "tool_input_preview": "{\"command\":\"python -c \\\"from scraper_search.fetcher import fetch_html; print('Import OK')\\\"\",\"description\":\"Verify fetcher module imports correctly\"}",
-  "error": "Exit code 1\nTraceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n    from scraper_search.fetcher import fetch_html; print('Import OK')\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nModuleNotFoundError: No module named 'scraper_search'",
-  "timestamp": "2026-03-31T15:49:34.752Z",
+  "tool_input_preview": "{\"command\":\"# 移除误创建的 .claude/skills\\nrm -rf /mnt/data/dev/scraper-search/.claude/skills\\n\\n# 检查 skills 目录的 git 状态\\ngit status --short | grep \\\"^skills\\\"\",\"description\":\"清理并检查 skills 目录状态\"}",
+  "error": "Exit code 1",
+  "timestamp": "2026-03-31T17:19:00.919Z",
   "retry_count": 1
 }
