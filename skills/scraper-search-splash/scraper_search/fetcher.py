@@ -51,6 +51,19 @@ class SplashResponse:
         return f"<SplashResponse status_code={self.status_code}>"
 
 
+def get_splash_nodes() -> list:
+    """
+    Get Splash node list from environment variable.
+    Supports multiple nodes separated by comma.
+
+    Returns:
+        List of Splash server URLs
+    """
+    nodes_str = os.getenv("SPLASH_URLS", os.getenv("SPLASH_URL", "http://127.0.0.1:8050"))
+    nodes = [n.strip() for n in nodes_str.split(",") if n.strip()]
+    return nodes
+
+
 def fetch_with_splash(url: str, splash_url: str, timeout: int = 30) -> Tuple[Optional[str], Optional[SplashResponse]]:
     """
     Fetch HTML content using Splash JavaScript renderer.
@@ -106,7 +119,7 @@ def fetch_html(
         proxies: Proxy configuration dict (optional)
         max_retries: Maximum retry attempts (default from env MAX_RETRIES=3)
         use_splash: Whether to use Splash for JavaScript rendering
-        splash_url: Splash server URL (default: http://127.0.0.1:8050)
+        splash_url: Splash server URL (default: random from SPLASH_URLS or SPLASH_URL)
 
     Returns:
         Tuple of (html_content, response_object) or (None, None) on failure
@@ -114,7 +127,8 @@ def fetch_html(
     # Use Splash if requested
     if use_splash:
         if splash_url is None:
-            splash_url = os.getenv("SPLASH_URL", "http://127.0.0.1:8050")
+            splash_url = random.choice(get_splash_nodes())
+        assert splash_url is not None
         return fetch_with_splash(url, splash_url)
 
     # Fall back to regular HTTP request
