@@ -34,7 +34,7 @@ def main():
 @click.option("-o", "--output", type=click.Path(), help="Output file (default: stdout)")
 @click.option("-f", "--format", "output_format", type=click.Choice(["json", "markdown"]), default="markdown", help="Output format")
 @click.option("--no-save-content", is_flag=True, help="Skip fetching full content")
-@click.option("--use-splash", is_flag=True, help="Use Splash JavaScript renderer")
+@click.option("--no-splash", "use_splash", is_flag=True, flag_value=False, default=True, help="Disable Splash JavaScript renderer (default: enabled)")
 @click.option("--splash-url", default=None, help="Splash server URL")
 @click.option("--proxy", "proxy_url", default=None, help="Proxy URL (http/https/socks)")
 def search(query, num, output, output_format, no_save_content, use_splash, splash_url, proxy_url):
@@ -106,7 +106,7 @@ def search(query, num, output, output_format, no_save_content, use_splash, splas
 @click.argument("url")
 @click.option("-o", "--output", type=click.Path(), help="Output file")
 @click.option("-f", "--format", "output_format", type=click.Choice(["json", "markdown"]), default="markdown")
-@click.option("--use-splash", is_flag=True, help="Use Splash JavaScript renderer")
+@click.option("--no-splash", "use_splash", is_flag=True, flag_value=False, default=True, help="Disable Splash JavaScript renderer (default: enabled)")
 @click.option("--splash-url", default=None, help="Splash server URL")
 @click.option("--proxy", "proxy_url", default=None, help="Proxy URL (http/https/socks)")
 def fetch(url, output, output_format, use_splash, splash_url, proxy_url):

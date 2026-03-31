@@ -34,15 +34,15 @@
   "directoryMap": {},
   "hotPaths": [
     {
-      "path": "SPEC.md",
-      "accessCount": 8,
-      "lastAccessed": 1774971937847,
+      "path": "src/scraper_search/cli.py",
+      "accessCount": 13,
+      "lastAccessed": 1774973286698,
       "type": "file"
     },
     {
-      "path": "src/scraper_search/cli.py",
+      "path": "SPEC.md",
       "accessCount": 8,
-      "lastAccessed": 1774972292992,
+      "lastAccessed": 1774971937847,
       "type": "file"
     },
     {
