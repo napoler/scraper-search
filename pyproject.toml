@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scraper-search"
+version = "0.1.0"
+description = "A CLI tool for searching and extracting web content"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Terry", email = "napoler@qq.com"}
+]
+keywords = ["cli", "search", "scraper", "content-extraction"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+dependencies = [
+    "click>=8.1.0",
+    "python-dotenv>=1.0.0",
+    "requests>=2.32.0",
+    "readability-lxml>=0.8.4",
+    "html2text>=2020.1.16",
+    "beautifulsoup4>=4.13.0",
+    "lxml>=6.0.0",
+    "search-engines-kit>=1.0.0",
+]
+
+[project.optional-dependencies]
+rich = ["rich>=13.0.0"]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.1.0",
+    "mypy>=1.8.0",
+]
+
+[project.scripts]
+scraper-search = "scraper_search.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_ignores = true

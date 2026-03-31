@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+src/scraper_search/__init__.py
+src/scraper_search/cli.py
+src/scraper_search/fetcher.py
+src/scraper_search/formatter.py
+src/scraper_search/readability.py
+src/scraper_search/search.py
+src/scraper_search.egg-info/PKG-INFO
+src/scraper_search.egg-info/SOURCES.txt
+src/scraper_search.egg-info/dependency_links.txt
+src/scraper_search.egg-info/entry_points.txt
+src/scraper_search.egg-info/requires.txt
+src/scraper_search.egg-info/top_level.txt

@@ -1,0 +1,104 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774971167031,
+  "projectRoot": "/mnt/data/dev/scraper-search",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {},
+  "hotPaths": [
+    {
+      "path": "SPEC.md",
+      "accessCount": 8,
+      "lastAccessed": 1774971937847,
+      "type": "file"
+    },
+    {
+      "path": "src/scraper_search/cli.py",
+      "accessCount": 8,
+      "lastAccessed": 1774972292992,
+      "type": "file"
+    },
+    {
+      "path": "src/scraper_search/fetcher.py",
+      "accessCount": 7,
+      "lastAccessed": 1774972151370,
+      "type": "file"
+    },
+    {
+      "path": "src/scraper_search/search.py",
+      "accessCount": 2,
+      "lastAccessed": 1774971488464,
+      "type": "file"
+    },
+    {
+      "path": "src/scraper_search/readability.py",
+      "accessCount": 2,
+      "lastAccessed": 1774971492002,
+      "type": "file"
+    },
+    {
+      "path": "requirements.txt",
+      "accessCount": 2,
+      "lastAccessed": 1774971674050,
+      "type": "file"
+    },
+    {
+      "path": "pyproject.toml",
+      "accessCount": 2,
+      "lastAccessed": 1774971676709,
+      "type": "file"
+    },
+    {
+      "path": ".python-version",
+      "accessCount": 1,
+      "lastAccessed": 1774971368475,
+      "type": "file"
+    },
+    {
+      "path": ".env.example",
+      "accessCount": 1,
+      "lastAccessed": 1774971371124,
+      "type": "file"
+    },
+    {
+      "path": "src/scraper_search/__init__.py",
+      "accessCount": 1,
+      "lastAccessed": 1774971427647,
+      "type": "file"
+    },
+    {
+      "path": "src/scraper_search/formatter.py",
+      "accessCount": 1,
+      "lastAccessed": 1774971443279,
+      "type": "file"
+    }
+  ],
+  "userDirectives": []
+}

@@ -1,0 +1,17 @@
+click>=8.1.0
+python-dotenv>=1.0.0
+requests>=2.32.0
+readability-lxml>=0.8.4
+html2text>=2020.1.16
+beautifulsoup4>=4.13.0
+lxml>=6.0.0
+search-engines-kit>=1.0.0
+
+[dev]
+pytest>=8.0.0
+pytest-cov>=4.1.0
+ruff>=0.1.0
+mypy>=1.8.0
+
+[rich]
+rich>=13.0.0

@@ -1,0 +1,34 @@
+Metadata-Version: 2.4
+Name: scraper-search
+Version: 0.1.0
+Summary: A CLI tool for searching and extracting web content
+Author-email: Terry <napoler@qq.com>
+License: MIT
+Keywords: cli,search,scraper,content-extraction
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: click>=8.1.0
+Requires-Dist: python-dotenv>=1.0.0
+Requires-Dist: requests>=2.32.0
+Requires-Dist: readability-lxml>=0.8.4
+Requires-Dist: html2text>=2020.1.16
+Requires-Dist: beautifulsoup4>=4.13.0
+Requires-Dist: lxml>=6.0.0
+Requires-Dist: search-engines-kit>=1.0.0
+Provides-Extra: rich
+Requires-Dist: rich>=13.0.0; extra == "rich"
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.1.0; extra == "dev"
+Requires-Dist: ruff>=0.1.0; extra == "dev"
+Requires-Dist: mypy>=1.8.0; extra == "dev"
+
+# scraper-search
+scraper-search 爬取正文  skill 以及脚本
