@@ -32,14 +32,8 @@ echo "HTTP_PROXY: ${HTTP_PROXY:-未设置}"
 ## 安装程序
 
 ```bash
-# 方式1: 使用安装脚本（推荐）
 cd skills/scraper-search-splash
-./install.sh
-
-# 方式2: 手动安装
-cd skills/scraper-search-splash
-pip install -r requirements.txt
-chmod +x search
+pip install -q -r requirements.txt
 ```
 
 ## 执行工作流程

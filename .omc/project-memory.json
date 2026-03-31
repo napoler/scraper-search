@@ -46,6 +46,12 @@
       "type": "file"
     },
     {
+      "path": "skills/scraper-search-splash/skill.md",
+      "accessCount": 9,
+      "lastAccessed": 1774976747789,
+      "type": "file"
+    },
+    {
       "path": "SPEC.md",
       "accessCount": 8,
       "lastAccessed": 1774971937847,
@@ -58,15 +64,9 @@
       "type": "file"
     },
     {
-      "path": "skills/scraper-search-splash/skill.md",
-      "accessCount": 7,
-      "lastAccessed": 1774975432738,
-      "type": "file"
-    },
-    {
       "path": "skills/README.md",
-      "accessCount": 5,
-      "lastAccessed": 1774974650563,
+      "accessCount": 7,
+      "lastAccessed": 1774976645728,
       "type": "file"
     },
     {
@@ -124,6 +124,12 @@
       "type": "file"
     },
     {
+      "path": "skills/scraper-search-splash/requirements.txt",
+      "accessCount": 2,
+      "lastAccessed": 1774976589119,
+      "type": "file"
+    },
+    {
       "path": ".python-version",
       "accessCount": 1,
       "lastAccessed": 1774971368475,
@@ -166,15 +172,21 @@
       "type": "file"
     },
     {
-      "path": "skills/scraper-search-splash/requirements.txt",
-      "accessCount": 1,
-      "lastAccessed": 1774974528139,
-      "type": "file"
-    },
-    {
       "path": "skills/scraper-search-splash/search",
       "accessCount": 1,
       "lastAccessed": 1774974530844,
+      "type": "file"
+    },
+    {
+      "path": "README.md",
+      "accessCount": 1,
+      "lastAccessed": 1774976605556,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/install.sh",
+      "accessCount": 1,
+      "lastAccessed": 1774976735559,
       "type": "file"
     }
   ],
