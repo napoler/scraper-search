@@ -188,6 +188,12 @@
       "accessCount": 1,
       "lastAccessed": 1774976735559,
       "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash",
+      "accessCount": 1,
+      "lastAccessed": 1774976866739,
+      "type": "directory"
     }
   ],
   "userDirectives": []
