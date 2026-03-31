@@ -8,22 +8,45 @@
 |-------|------|
 | [scraper-search-splash](./scraper-search-splash/) | 通过 Splash 渲染执行搜索并整理资料 |
 
-## 安装
+## scraper-search-splash
+
+独立的搜索抓取工具，可直接运行。
 
 ```bash
-cd /mnt/data/dev/scraper-search
-pip install -e .
+cd skills/scraper-search-splash
+pip install -r requirements.txt
+./search search -q "关键词"
 ```
 
-## 快速使用
+### 目录结构
 
-```bash
-# 搜索（默认 Splash 渲染）
-scraper-search search -q "关键词"
-
-# 单 URL 抓取
-scraper-search fetch "https://example.com"
-
-# 使用代理
-scraper-search search -q "关键词" --proxy "http://127.0.0.1:7890"
 ```
+scraper-search-splash/
+├── skill.md              # Skill 说明
+├── search               # 入口脚本
+├── requirements.txt     # 依赖
+└── scraper_search/      # 源码
+    ├── __init__.py
+    ├── cli.py
+    ├── fetcher.py
+    ├── formatter.py
+    ├── readability.py
+    └── search.py
+```
+
+### 命令
+
+| 命令 | 说明 |
+|------|------|
+| `./search search -q "关键词"` | 搜索并抓取 |
+| `./search fetch "URL"` | 抓取单个 URL |
+| `./search search -q "词" --no-splash` | 禁用 Splash |
+
+### 参数
+
+- `-q, --query`: 搜索关键词
+- `-n, --num`: 结果数量 (默认 5)
+- `-o, --output`: 输出文件
+- `-f, --format`: 格式 json/markdown (默认 markdown)
+- `--no-splash`: 禁用 Splash (默认启用)
+- `--proxy`: 代理 URL

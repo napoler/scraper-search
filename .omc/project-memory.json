@@ -52,6 +52,12 @@
       "type": "file"
     },
     {
+      "path": "skills/README.md",
+      "accessCount": 5,
+      "lastAccessed": 1774974650563,
+      "type": "file"
+    },
+    {
       "path": "src/scraper_search/search.py",
       "accessCount": 3,
       "lastAccessed": 1774973979774,
@@ -61,12 +67,6 @@
       "path": "src/scraper_search/readability.py",
       "accessCount": 3,
       "lastAccessed": 1774973981225,
-      "type": "file"
-    },
-    {
-      "path": "skills/README.md",
-      "accessCount": 3,
-      "lastAccessed": 1774974099610,
       "type": "file"
     },
     {
@@ -106,6 +106,12 @@
       "type": "file"
     },
     {
+      "path": "skills/scraper-search-splash/skill.md",
+      "accessCount": 2,
+      "lastAccessed": 1774974534204,
+      "type": "file"
+    },
+    {
       "path": ".python-version",
       "accessCount": 1,
       "lastAccessed": 1774971368475,
@@ -124,9 +130,51 @@
       "type": "file"
     },
     {
-      "path": "skills/scraper-search-splash/skill.md",
+      "path": "skills/scraper-search-splash/scraper_search/__init__.py",
       "accessCount": 1,
-      "lastAccessed": 1774974059988,
+      "lastAccessed": 1774974488307,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/scraper_search/search.py",
+      "accessCount": 1,
+      "lastAccessed": 1774974491077,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/scraper_search/fetcher.py",
+      "accessCount": 1,
+      "lastAccessed": 1774974495015,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/scraper_search/readability.py",
+      "accessCount": 1,
+      "lastAccessed": 1774974498129,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/scraper_search/formatter.py",
+      "accessCount": 1,
+      "lastAccessed": 1774974501722,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/scraper_search/cli.py",
+      "accessCount": 1,
+      "lastAccessed": 1774974505662,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/requirements.txt",
+      "accessCount": 1,
+      "lastAccessed": 1774974528139,
+      "type": "file"
+    },
+    {
+      "path": "skills/scraper-search-splash/search",
+      "accessCount": 1,
+      "lastAccessed": 1774974530844,
       "type": "file"
     }
   ],
