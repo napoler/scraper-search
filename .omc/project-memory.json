@@ -35,8 +35,8 @@
   "hotPaths": [
     {
       "path": "src/scraper_search/cli.py",
-      "accessCount": 13,
-      "lastAccessed": 1774973286698,
+      "accessCount": 14,
+      "lastAccessed": 1774973980763,
       "type": "file"
     },
     {
@@ -47,20 +47,26 @@
     },
     {
       "path": "src/scraper_search/fetcher.py",
-      "accessCount": 7,
-      "lastAccessed": 1774972151370,
+      "accessCount": 8,
+      "lastAccessed": 1774973981624,
       "type": "file"
     },
     {
       "path": "src/scraper_search/search.py",
-      "accessCount": 2,
-      "lastAccessed": 1774971488464,
+      "accessCount": 3,
+      "lastAccessed": 1774973979774,
       "type": "file"
     },
     {
       "path": "src/scraper_search/readability.py",
-      "accessCount": 2,
-      "lastAccessed": 1774971492002,
+      "accessCount": 3,
+      "lastAccessed": 1774973981225,
+      "type": "file"
+    },
+    {
+      "path": "skills/README.md",
+      "accessCount": 3,
+      "lastAccessed": 1774974099610,
       "type": "file"
     },
     {
@@ -76,6 +82,30 @@
       "type": "file"
     },
     {
+      "path": "skills/scraper-search-splash.md",
+      "accessCount": 2,
+      "lastAccessed": 1774973890942,
+      "type": "file"
+    },
+    {
+      "path": "",
+      "accessCount": 2,
+      "lastAccessed": 1774973967223,
+      "type": "directory"
+    },
+    {
+      "path": "src/scraper_search/formatter.py",
+      "accessCount": 2,
+      "lastAccessed": 1774973980316,
+      "type": "file"
+    },
+    {
+      "path": "src/scraper_search/__init__.py",
+      "accessCount": 2,
+      "lastAccessed": 1774973981466,
+      "type": "file"
+    },
+    {
       "path": ".python-version",
       "accessCount": 1,
       "lastAccessed": 1774971368475,
@@ -88,15 +118,15 @@
       "type": "file"
     },
     {
-      "path": "src/scraper_search/__init__.py",
+      "path": "skills/SKILL.md",
       "accessCount": 1,
-      "lastAccessed": 1774971427647,
+      "lastAccessed": 1774973688685,
       "type": "file"
     },
     {
-      "path": "src/scraper_search/formatter.py",
+      "path": "skills/scraper-search-splash/skill.md",
       "accessCount": 1,
-      "lastAccessed": 1774971443279,
+      "lastAccessed": 1774974059988,
       "type": "file"
     }
   ],

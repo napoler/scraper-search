@@ -6,7 +6,7 @@
 
 | Skill | 说明 |
 |-------|------|
-| [SKILL.md](./SKILL.md) | 通过 Splash 渲染执行搜索并整理资料 |
+| [scraper-search-splash](./scraper-search-splash/) | 通过 Splash 渲染执行搜索并整理资料 |
 
 ## 安装
 
